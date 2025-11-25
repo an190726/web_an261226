@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ Cơ Bản</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1>Đây là Tiêu đề chính (Thẻ H1)</h1>
+    </header>
+
+    <section>
+        <p>Đây là một đoạn văn bản (Thẻ P) minh họa nội dung thân trang. Chúng ta sẽ dùng đoạn này để kiểm tra thuộc tính **margin** và **padding**.</p>
+        
+        <h2>Các Thuộc Tính CSS Cơ Bản</h2>
+        
+        <ul>
+            <li>Mục 1 (Kiểm tra list-style)</li>
+            <li>Mục 2 (Kiểm tra color)</li>
+            <li>Mục 3 (Kiểm tra font-size)</li>
+        </ul>
+        
+    </section>
+
+    <div class="box-model-example">
+        <p>Phần tử này sẽ có **border** để minh họa Box Model.</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+/* Thiết lập cơ bản cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Đặt lại lề ngoài của body */
+    padding: 20px; /* Thêm khoảng đệm cho body */
+    background-color: #f4f4f4;
+}
+
+/* 1. Kiểm tra list-style */
+ul {
+    /* list-style: Dùng để loại bỏ hoặc thay đổi kiểu đánh dấu của danh sách */
+    list-style-type: square; /* Kiểu vuông */
+    padding-left: 30px;
+}
+
+/* 2. Kiểm tra font-size, color, font-weight */
+h1 {
+    color: #333; /* Màu chữ */
+    font-size: 28px; /* Kích thước chữ */
+    font-weight: bold;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* 3. Kiểm tra border, padding, và margin (Box Model) */
+.box-model-example {
+    /* border: độ rộng | kiểu | màu */
+    border: 3px solid #007bff; 
+    
+    /* padding: Khoảng đệm bên trong (giữa nội dung và border) */
+    padding: 15px; 
+    
+    /* margin: Khoảng lề bên ngoài (tạo khoảng cách với các phần tử khác) */
+    margin: 20px 0; 
+    
+    background-color: #e9f7ff;
+    width: 300px; /* Đặt chiều rộng để dễ quan sát Box Model */
+}
