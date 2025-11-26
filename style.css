@@ -1,41 +1,32 @@
-/* Thiết lập cơ bản cho toàn bộ trang */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0; /* Đặt lại lề ngoài của body */
-    padding: 20px; /* Thêm khoảng đệm cho body */
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Trang Chủ - Lớp Công nghệ TT</title>
+  
+  <style>
+    /* Định dạng cho H1 */
+    h1 {
+      color: red; /* màu chữ đỏ */
+      text-align: center; /* căn giữa */
+    }
 
-/* 1. Kiểm tra list-style */
-ul {
-    /* list-style: Dùng để loại bỏ hoặc thay đổi kiểu đánh dấu của danh sách */
-    list-style-type: square; /* Kiểu vuông */
-    padding-left: 30px;
-}
+    /* Định dạng cho đoạn P thứ nhất (dùng bộ chọn :first-of-type) */
+    p:first-of-type {
+      color: yellow; /* màu chữ vàng */
+      font-size: 13px; /* cỡ chữ 13 */
+      font-family: Arial, sans-serif; /* font Arial */
+    }
 
-/* 2. Kiểm tra font-size, color, font-weight */
-h1 {
-    color: #333; /* Màu chữ */
-    font-size: 28px; /* Kích thước chữ */
-    font-weight: bold;
-}
-
-p {
-    color: #555;
-    font-size: 16px;
-}
-
-/* 3. Kiểm tra border, padding, và margin (Box Model) */
-.box-model-example {
-    /* border: độ rộng | kiểu | màu */
-    border: 3px solid #007bff; 
-    
-    /* padding: Khoảng đệm bên trong (giữa nội dung và border) */
-    padding: 15px; 
-    
-    /* margin: Khoảng lề bên ngoài (tạo khoảng cách với các phần tử khác) */
-    margin: 20px 0; 
-    
-    background-color: #e9f7ff;
-    width: 300px; /* Đặt chiều rộng để dễ quan sát Box Model */
-}
+    /* Định dạng cho đoạn P thứ hai (dùng bộ chọn :last-of-type) */
+    p:last-of-type {
+      background-color: yellow; /* màu nền vàng */
+      font-weight: bold; /* in đậm */
+      font-size: 13px; /* cỡ chữ 13 */
+      font-family: "Times New Roman", serif; /* font Times New Roman */
+    }
+  </style>
+  </head>
+ <body>
+  <h1>Lớp Công nghệ TT</h1> 
+  <p>Xin chào các bạn</p> <p>chúng tôi thuộc lớp T2</p> </body>
+</html>
